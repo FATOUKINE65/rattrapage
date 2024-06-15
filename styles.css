@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+    /* display: flex; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth-buttons button {
+    background-color: #001aff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.auth-buttons button:hover {
+    background-color: #001aff;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #eef;
+    justify-content: space-between;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    margin-bottom: 1rem;
+}
+
+.hero-buttons button {
+    background-color: #001aff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    display: flex;
+}
+
+.hero-buttons button:hover {
+    background-color: #001aff;
+}
+
+.person img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+header, main, footer {
+    width: 100%;
+    padding: 20px;
+    }
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #0056b3;
+}
+
+.offer-list, .logos, .publication-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+.offer, .publication {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    flex: 0 1 30%; /* Pour définir une largeur fixe de 30% avec un retrait de 10px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logos img {
+    margin: 10px;
+    width: auto;
+    height: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
